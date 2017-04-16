@@ -1,0 +1,79 @@
+.icon-stat {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/glyphicons-halflings.png");
+    background-repeat: no-repeat;
+    background-position: -408px -0px
+}
+
+.blur-background {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.chart-container {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -350px;
+    border: 10px solid rgba(256, 256, 256, 0.5);
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+    background-color: rgba(256, 256, 256, 0.4);
+}
+
+.icon-close-stat {
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    top: 5px;
+    right: 5px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/glyphicons-halflings.png");
+    background-repeat: no-repeat;
+    background-position: -168px -96px
+}
+
+.stat-close-btn {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(256, 256, 256, 0);
+    border-radius: 15px;
+    right: -7px;
+    top: -8px;
+}
+
+.select-container {
+    margin: 20px 0 0 10px;
+}
+
+.chart {
+    margin: 10px 10px 10px 10px;
+}
+
+#stat-chart {
+}
+
+.no-product {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    color: rgba(256, 256, 256, 1);
+    min-height: 100%;
+    height: auto !important;
+    border-radius: 5px;
+    background-color: #2a2a2b;
+    padding: 20px;
+}
